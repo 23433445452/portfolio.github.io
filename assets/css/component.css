@@ -931,3 +931,12 @@ body {
 		padding: 17px 0 0 13px;
 	}
   }
+/* Display all sections on desktop */
+@media (min-width: 1024px) {
+    .page {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        position: relative;
+    }
+}
